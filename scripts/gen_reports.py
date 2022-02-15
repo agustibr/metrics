@@ -191,7 +191,7 @@ def create_project_report_and_posts(project, latest_metrics, previous_metrics, O
     with open(f"{PATH_TO_METADATA}/augur/bus_factor.json") as f:
         AUGUR_METRICS["bus_factor"] = json.load(f)
 
-    report_posts.create_posts(REPORT_JSON, AUGUR_METRICS, is_project=True)
+    # report_posts.create_posts(REPORT_JSON, AUGUR_METRICS, is_project=True)
 
 
 def create_org_report_and_posts(org, ORG_REPORT_JSON):
@@ -203,7 +203,7 @@ def create_org_report_and_posts(org, ORG_REPORT_JSON):
 
     AUGUR_METRICS = {}
 
-    report_posts.create_posts(ORG_REPORT_JSON[org], AUGUR_METRICS, is_project=False)
+    # report_posts.create_posts(ORG_REPORT_JSON[org], AUGUR_METRICS, is_project=False)
 
 
 if __name__ == '__main__':

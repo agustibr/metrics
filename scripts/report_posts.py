@@ -276,7 +276,7 @@ def _create_post(REPORT_JSON, AUGUR_METRICS, latest=False, is_project=True):
             """
             data_source = 'site.data["{owner_in_data}"]["{repo_in_data}"]["{reportID}"]["data"]'
             post_text = add_table_of_metrics(WEEKLY_PROJECT_POST, REPORT_JSON, data_source, 'WEEKLY')
-            post_text = add_augur_metrics(post_text, REPORT_JSON, AUGUR_METRICS, 'WEEKLY', is_project=True)
+            # post_text = add_augur_metrics(post_text, REPORT_JSON, AUGUR_METRICS, 'WEEKLY', is_project=True)
         else:
             """
             WEEKLY - ORG
@@ -302,7 +302,7 @@ def _create_post(REPORT_JSON, AUGUR_METRICS, latest=False, is_project=True):
             """
             data_source = 'site.data["{owner_in_data}"]["{repo_in_data}"]["{reportID}"]["data"]'
             post_text = add_table_of_metrics(MONTHLY_PROJECT_POST, REPORT_JSON, data_source, 'MONTHLY')
-            post_text = add_augur_metrics(post_text, REPORT_JSON, AUGUR_METRICS, 'MONTHLY', is_project=True)
+            # post_text = add_augur_metrics(post_text, REPORT_JSON, AUGUR_METRICS, 'MONTHLY', is_project=True)
         else:
             """
             MONTHLY - ORG
