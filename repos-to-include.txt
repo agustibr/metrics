@@ -1,4 +1,2 @@
-twitter/*
-twitterdev/*
-pantsbuild/pants
-pantsbuild/pex
+Platoniq/*
+agustibr/*
