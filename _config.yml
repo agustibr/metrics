@@ -1,5 +1,5 @@
-name: TwitterOSS Metrics
-url: 'https://twitter.github.io'
+name: AgustiOSS Metrics
+url: 'https://agustibr.github.io'
 highlighter: rouge
 baseurl: '/metrics'
 exclude:
